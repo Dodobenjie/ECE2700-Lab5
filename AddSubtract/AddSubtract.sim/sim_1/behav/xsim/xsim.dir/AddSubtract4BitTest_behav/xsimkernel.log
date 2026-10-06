@@ -1,0 +1,7 @@
+Running: xsim.dir/AddSubtract4BitTest_behav/xsimk.exe -simmode gui -wdb AddSubtract4BitTest_behav.wdb -simrunnum 0 -socket 58334
+Design successfully loaded
+Design Loading Memory Usage: 18836 KB (Peak: 18836 KB)
+Design Loading CPU Usage: 124 ms
+Simulation completed
+Simulation Memory Usage: 19604 KB (Peak: 19604 KB)
+Simulation CPU Usage: 186 ms

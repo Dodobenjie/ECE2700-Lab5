@@ -21,7 +21,7 @@
 
 
 module AddSubtractTop(
-    input  [7:0] sw,
+    input  [8:0] sw,
     input  [4:0] btn,
     output [3:0] an,
     output [6:0] seg,
@@ -29,9 +29,9 @@ module AddSubtractTop(
 );
 
     // Map switches to operands and button to control signal
-    wire [3:0] A = sw[7:4];   // Upper 4 switches for operand A
-    wire [3:0] B = sw[3:0];   // Lower 4 switches for operand B
-    wire subtract = btn[0];   // Button 0 controls add/subtract
+    wire [3:0] A = sw[8:5];   // Upper 4 switches for operand A
+    wire [3:0] B = sw[4:1];   // Lower 4 switches for operand B
+    wire subtract = sw[0];    //Switch 0 now selects addition/subtraction
 
     // Declare wires for result and flags
     wire [3:0] result;
